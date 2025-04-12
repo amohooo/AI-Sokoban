@@ -29,16 +29,11 @@ This solver is designed to interact with the provided `search.py` and `sokoban.p
     - `sokoban.py`
     - Your Sokoban warehouse map file (e.g., `warehouse1.txt`)
 2. Load and solve the puzzle:
-```python
-from sokoban import Warehouse
-from my_sokoban import solve_weighted_sokoban
 
-wh = Warehouse()
-wh.load_warehouse("warehouse1.txt")
-
-actions, cost = solve_weighted_sokoban(wh)
-print("Solution:", actions)
-print("Total Cost:", cost)
+Run gui_sokoban.py in Thonny
+load any warehouse
+plan
+play
 
 ## Notes
 
@@ -48,6 +43,6 @@ The system penalizes pushing boxes into taboo cells, discouraging unsolvable sta
 
 All interfaces comply with the requirements specified by the unit.
 
-[<img src="\images\demo.gif">]
+[<img src="\images\demo.gif">]('https://github.com/amohooo/AI-Sokoban/blob/main/images/demo.gif')
 
 
