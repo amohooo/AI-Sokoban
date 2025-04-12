@@ -48,4 +48,6 @@ The system penalizes pushing boxes into taboo cells, discouraging unsolvable sta
 
 All interfaces comply with the requirements specified by the unit.
 
+[<img src="\images\demo.gif">]
+
 
